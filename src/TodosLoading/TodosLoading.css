@@ -1,0 +1,40 @@
+.loadingTodo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 24px;
+	box-shadow: 8px 5px 50px rgba(32, 35, 41, 0.15);
+	gap: 60px;
+	width: 80%;
+	padding: 30px 10px;
+	background: linear-gradient(
+		90deg,
+		rgba(250, 250, 250, 1),
+		rgb(200, 199, 199)
+	);
+	background-size: 400% 400%;
+	animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.loadingTodo-text {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.loadingTodo-completeIcon,
+.loadingTodo-deleteIcon {
+	font-size: 2.2rem;
+}

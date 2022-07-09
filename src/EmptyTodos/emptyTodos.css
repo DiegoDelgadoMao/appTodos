@@ -1,0 +1,11 @@
+.img-empty {
+	width: 100px;
+	filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.445));
+}
+.text-empty {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-weight: 900;
+}

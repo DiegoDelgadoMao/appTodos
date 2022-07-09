@@ -1,0 +1,7 @@
+.containerList {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px 0px;
+	margin: 20px 0px;
+	place-items: center;
+}

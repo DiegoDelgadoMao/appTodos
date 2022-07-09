@@ -1,0 +1,12 @@
+.tittle {
+	text-align: center;
+	width: 80%;
+	max-width: 300px;
+	margin: 40px auto;
+	font-size: 2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.tittle span {
+	color: brown;
+}

@@ -1,0 +1,13 @@
+.img-error {
+	width: 100px;
+	filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.445));
+}
+
+.text-error {
+	font-size: 2.2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ad3b2a;
+	font-weight: 40px;
+	letter-spacing: 1.5px;
+}

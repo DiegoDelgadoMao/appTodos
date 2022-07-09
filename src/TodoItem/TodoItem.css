@@ -1,0 +1,31 @@
+.containerList__item {
+	width: 80%;
+	height: 70px;
+	background: rgb(250 252 255);
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	place-items: center;
+	padding: 0px 20px;
+}
+
+.containerList__item i {
+	font-size: 2.4rem;
+}
+
+.containerList__item p {
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.TodoItem-p__complete {
+	text-decoration: line-through;
+}
+
+.ri-delete-bin-5-line:hover {
+	color: rgb(165, 42, 42);
+}
+
+.icon-check__active {
+	color: rgb(0, 255, 128);
+	-webkit-text-stroke: 0.6px #111;
+}
