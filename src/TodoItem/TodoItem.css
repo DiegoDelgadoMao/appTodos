@@ -13,12 +13,13 @@
 }
 
 .containerList__item p {
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	font-weight: 500;
 }
 
-.TodoItem-p__complete {
+.containerList__item .TodoItem-p__complete {
 	text-decoration: line-through;
+	font-weight: 700;
 }
 
 .ri-delete-bin-5-line:hover {

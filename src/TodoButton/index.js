@@ -2,6 +2,7 @@ import React from 'react';
 import './TodoButton.css';
 
 import { TodoContext } from '../TodoContext/index';
+import { RiAddLine } from 'react-icons/ri';
 
 function CreateTodoButton() {
 	const { openModal, setModal } = React.useContext(TodoContext);
@@ -10,9 +11,14 @@ function CreateTodoButton() {
 		setModal(prevState => !prevState);
 	};
 
+	const stylesIcon = {
+		fontSize: '30px',
+		color: '#fff',
+	};
+
 	return (
 		<button className='addTaskButton' onClick={() => onClickButton()}>
-			<i className='ri-add-fill'></i>
+			<RiAddLine style={stylesIcon} />
 		</button>
 	);
 }

@@ -12,7 +12,7 @@ export function useLocalStorage(itemName, initialValue) {
 				let parseItem;
 
 				if (!localStorageItem) {
-					localStorageItem.setItem(itemName, JSON.stringify(initialValue));
+					localStorage.setItem(itemName, JSON.stringify(initialValue));
 					parseItem = initialValue;
 				} else {
 					parseItem = JSON.parse(localStorageItem);
