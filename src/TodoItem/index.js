@@ -15,7 +15,6 @@ function TodoItem({ text, completed, onComplete, onDelete }) {
 				/>
 				<p className={`${completed && 'TodoItem-p__complete'}`}>{text}</p>
 				<FiTrash2 color={'rgb(165, 42, 42)'} onClick={onDelete} />
-				{/* <i className='ri-delete-bin-5-line' onClick={onDelete}></i> */}
 			</li>
 		</IconContext.Provider>
 	);

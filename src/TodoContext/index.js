@@ -33,7 +33,6 @@ function TodoProvider(props) {
 			completed: false,
 			text,
 		});
-		console.log(newTodos);
 		saveTodos(newTodos);
 	};
 
