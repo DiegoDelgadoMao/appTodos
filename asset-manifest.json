@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/appTodos/static/css/main.9e6c7bf9.css",
+    "main.js": "/appTodos/static/js/main.5ee99043.js",
+    "static/media/senal-de-precaucion.png": "/appTodos/static/media/senal-de-precaucion.053b80c0df72121ceedd.png",
+    "index.html": "/appTodos/index.html",
+    "main.9e6c7bf9.css.map": "/appTodos/static/css/main.9e6c7bf9.css.map",
+    "main.5ee99043.js.map": "/appTodos/static/js/main.5ee99043.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e6c7bf9.css",
+    "static/js/main.5ee99043.js"
+  ]
+}
