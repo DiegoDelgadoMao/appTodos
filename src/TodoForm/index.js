@@ -1,10 +1,8 @@
-import React, { useContext, useState } from 'react';
-import { TodoContext } from '../TodoContext/index';
-import './TodoForm.css';
+import React, { useState } from 'react';
 import imgCreateTodo from '../add.png';
+import './TodoForm.css';
 
-export function TodoForm() {
-	const { addTodo, setModal } = useContext(TodoContext);
+export function TodoForm({ addTodo, setModal }) {
 	const [newTodoValue, setTodoValue] = useState('');
 	const onCancel = () => {
 		setModal(false);

@@ -21,3 +21,7 @@
 .containerSearch:focus {
 	outline-color: aqua;
 }
+
+.containerSearch:disabled {
+	opacity: 25%;
+}
